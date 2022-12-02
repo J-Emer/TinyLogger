@@ -8,5 +8,7 @@
     <Authors>Emerson</Authors>
     <Description>Tiny Logger tool to help outputting project information to the console, or log file.</Description>
     <PackageTags>logger;terminal;output;string;log;console;</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Url></Url>
   </PropertyGroup>
 </Project>
