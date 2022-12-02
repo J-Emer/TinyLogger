@@ -3,5 +3,10 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>Tiny.Logger.1.0.0</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Emerson</Authors>
+    <Description>Tiny Logger tool to help outputting project information to the console, or log file.</Description>
+    <PackageTags>logger;terminal;output;string;log;console;</PackageTags>
   </PropertyGroup>
 </Project>
