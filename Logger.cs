@@ -73,6 +73,10 @@ namespace TinyLogger
         {
             if(UseLogFile)
             {
+                if(LogFilePath == "")
+                {
+                    throw new Exception("LogFilePath has not been set");
+                }
                 File.AppendAllText(LogFilePath, _message + Environment.NewLine);
                 return;
             }
