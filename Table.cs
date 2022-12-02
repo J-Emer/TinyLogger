@@ -9,6 +9,8 @@ namespace TinyLogger
         private List<List<string>> _rows = new List<List<string>>();
         public ConsoleLevel ConsoleLevel{get;set;} = ConsoleLevel.Message;
 
+
+
         private Logger _logger; 
 
         public Table(Logger _logger)
